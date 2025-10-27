@@ -1,0 +1,27 @@
+
+  <div class="changePwd-container">
+    <form id="changePwdForm" class="form-box">
+      <h2>Change Password</h2>
+      <p>You can chnage your password.</p>
+
+      <label for="oldPassword">Old Password</label>
+      <input type="password" id="oldPassword" name="oldPassword" placeholder="Enter your old password" required>
+
+      <label for="newPassword">New Password</label>
+      <input type="password" id="newPassword" name="newPassword" placeholder="Enter your new password" required>
+      <ul id="passwordRules" class="rules">
+        <li id="ruleLength">• At least 8 characters</li>
+        <li id="ruleNumber">• Contains a number</li>
+        <li id="ruleSpecial">• Contains a special character</li>
+        <li id="ruleNoSpaces">• No spaces</li>
+      </ul>
+      
+      <label for="retypePassword">Re-Enter New Password</label>
+      <input type="password" id="retypePassword" name="retypePassword" placeholder="Re-Enter your new password" required>
+
+
+      <button type="submit">Update Password</button>
+      <p id="responseMessage" class="error"></p>
+    </form>
+  </div>
+

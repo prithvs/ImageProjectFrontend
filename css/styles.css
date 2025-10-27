@@ -1,0 +1,94 @@
+@import "nav_styles.css";
+@import "signin_styles.css";
+@import "signup_styles.css";  
+@import "imageList_styles.css";  
+@import "imageUpload_styles.css";  
+@import "profile_styles.css";  
+@import "changePwd_styles.css";  
+
+
+    
+    body {
+      font-family: Segoe UI, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h2 {
+      margin: 0 0 0.5rem 0;
+      color: #111827;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    label {
+      display: block;
+      margin: 1rem 0 0.5rem;
+      font-size: 0.9rem;
+      color: #374151;
+      font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px 14px;   /* left + right padding fixed */
+        border: 1px solid #d1d5db;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        background: #fff;
+        color: #111827;
+        box-sizing: border-box; /* ensures padding doesn’t mess width */
+        font-family: 'Segoe UI';
+    }
+
+    input:focus {
+      border-color: #4f46e5;
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(79,70,229,0.3);
+    }
+
+    button {
+    width: 100%;
+    padding: 12px;
+    background: #111827;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Segoe UI;
+    margin-top: 5px;
+  }
+
+  button:hover {
+    background: #333;
+  }
+
+  .error {
+    color: #dc2626;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .success {
+    color: green;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .invisible {
+    display: none;
+  }
+
+  .subtext {
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+

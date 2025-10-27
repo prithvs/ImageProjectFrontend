@@ -1,0 +1,105 @@
+
+.header {
+  background-color: black; /* Sets background to black */
+  color: white; /* For text visibility */
+  position: fixed; /* Makes the header stay at the top */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the header stays above other content */
+  height: 60px; /* Example height */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in height */
+}
+
+.content {
+  padding-top: 280px; /* Space for the header (header height + padding) */
+  padding-bottom: 80px; /* Space for the footer */
+  min-height: 100vh; /* Minimum height to push footer down */
+}
+
+.link_banner{
+    text-align: right;
+    vertical-align: middle;
+}
+.nav-item{
+    color:azure;
+    margin: 3rem 0 0.5rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+
+
+
+/* Basic reset and container styling (optional, but helpful)
+body {
+    background-color: #333; 
+    font-family: sans-serif;
+} */
+/* Basic reset and container styling (optional, but helpful) */
+
+/* Basic reset and container styling (optional, but helpful) */
+.menu-list {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Activates Flexbox on the list container */
+    
+    /* === KEY CHANGE HERE === */
+    /* Aligns the items to the end (right side) of the container */
+    justify-content: flex-end; 
+    
+    /* Menu Banner Background: Black */
+    background-color: #000; 
+}
+
+.menu-list li a {
+    display: block; /* Makes the whole link area clickable */
+    padding: 14px 20px; /* Adds space around the text */
+    text-decoration: none; /* Removes the default underline */
+    font-weight: bold;
+    
+    /* Default State: White text font color */
+    color: #ffffff; 
+    
+    /* Smooth transition for the color change */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover State: Text color changes to grey */
+.menu-list li a:hover {
+    color: #e9e5e5; /* Light grey text color on hover */
+    font-weight: bold;
+    background-color: #82bbf1; /* Optional: adds a slightly lighter black/dark grey background on hover */
+}
+
+
+
+/* New container for the header and menu alignment */
+.header-container {
+    position: fixed; /* Makes the header stay at the top */
+    background-color: black; /* Sets background to black */
+    color: white; /* For text visibility */
+    position: fixed; /* Makes the header stay at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the header stays above other content */
+    height: 60px; /* Example height */
+    padding: 10px;
+    box-sizing: border-box; 
+    display: flex; /* Makes children (h1 and nav) align horizontally */
+    justify-content: space-between; /* Pushes h1 to the left, nav to the right */
+    align-items: center; /* Vertically centers the text and menu items */
+    background-color: #000; /* Black background for the entire top bar */
+    padding: 0 20px; /* Adds some spacing on the left and right edges */
+}
+
+/* Style for the main header text */
+.header-container h1 {
+    margin: 0; /* Remove default margin to align perfectly */
+    color: #ffffff; /* White text for the header */
+    font-size: 24px;
+}
+
+/* --- Menu Styles --- */
+

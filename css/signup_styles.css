@@ -1,0 +1,77 @@
+
+  .signup-text {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #6b7280;
+  }
+
+  .signup-text a {
+    color: #4f46e5;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+
+
+.signup-container {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+.redirect-text {
+  text-align: center;
+  margin-top: 0.9rem;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 14px; /* top/bottom = 10px, left/right = 14px */
+  border: 1px solid #ccc;
+  /* border-radius: 6px; */
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.usernameMessage {
+  margin: 0 0 4px 0;   /* very small top/bottom spacing */
+  font-size: 12px;       /* smaller text */
+  color: red;            /* default color for error */
+  text-align: left;      /* align with label */
+  font-weight: normal;   /* lighter than labels */
+}
+
+
+.rules {
+  margin: 4px 0 0 0;        /* very small gap from input */
+  padding-left: 12px;       /* align nicely under label/input */
+  font-size: 12px;
+  color: #666;
+  list-style: none;         /* remove default bullets */
+}
+
+.rules li {
+  margin: 2px 0;            /* very small vertical spacing */
+  line-height: 1.2;         /* reduce vertical height */
+}
+
+.rules li.valid {
+  color: green;
+  font-weight: 500;
+}
+
+.rules li.invalid {
+  color: red;
+}
+

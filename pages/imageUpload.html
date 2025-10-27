@@ -1,0 +1,16 @@
+  <div class="upload-box">
+    <h2>Upload Image</h2>
+    <form id="uploadForm" enctype="multipart/form-data" method="POST">
+      <input type="file" id="imageInput" name="image" accept="image/*" required />
+       
+      <div class="checkbox-group">
+        <input type="checkbox" id="secureCheckbox" class="secureCheckbox" name="secure">
+        <label for="secureCheckbox">Secure</label>
+      </div>
+
+      <button type="submit">Upload</button>
+    </form>
+
+    <img id="preview" src="" alt="Image preview"/>
+    <div id="response"></div>
+  </div>
